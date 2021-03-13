@@ -1,0 +1,786 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2013-2020 Federico Iosue (federico@iosue.it)
+4  ~
+5  ~ This program is free software: you can redistribute it and/or modify
+6  ~ it under the terms of the GNU General Public License as published by
+7  ~ the Free Software Foundation, either version 3 of the License, or
+8  ~ (at your option) any later version.
+9  ~
+10  ~ This program is distributed in the hope that it will be useful,
+11  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+12  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+13  ~ GNU General Public License for more details.
+14  ~
+15  ~ You should have received a copy of the GNU General Public License
+16  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+17-->
+18<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+19    package="it.feio.android.omninotes.alpha"
+20    android:versionCode="291"
+21    android:versionName="6.1.0 Alpha 1" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="19"
+24-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml
+25        android:targetSdkVersion="29" />
+25-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml
+26
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:23:3-65
+27-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:23:20-62
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+28-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:24:3-79
+28-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:24:20-76
+29    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+29-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:25:3-77
+29-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:25:20-74
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:26:3-77
+30-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:26:20-74
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:27:3-79
+31-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:27:20-76
+32    <uses-permission android:name="android.permission.VIBRATE" />
+32-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:28:3-64
+32-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:28:20-61
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:29:3-79
+33-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:29:20-76
+34    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+34-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:30:3-69
+34-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:30:20-66
+35    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+35-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:31:3-78
+35-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:31:20-75
+36    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+36-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:32:3-76
+36-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:32:20-73
+37    <uses-permission android:name="com.google.android.apps.photos.permission.GOOGLE_PHOTOS" />
+37-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:33:3-93
+37-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:33:20-90
+38    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+38-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:34:3-86
+38-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:34:20-83
+39    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+39-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:35:3-88
+39-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:35:20-85
+40    <uses-permission android:name="com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA" />
+40-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:36:3-101
+40-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:36:20-98
+41    <uses-permission android:name="com.pushbullet.android.permission.SEND_MESSAGES" />
+41-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:37:3-85
+41-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:37:20-82
+42    <uses-permission android:name="android.permission.WAKE_LOCK" />
+42-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:38:3-66
+42-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:38:20-63
+43
+44    <uses-feature
+44-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:40:3-42:32
+45        android:name="android.hardware.camera"
+45-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:41:5-43
+46        android:required="false" />
+46-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:42:5-29
+47    <uses-feature
+47-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:43:3-45:32
+48        android:name="android.hardware.location.gps"
+48-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:44:5-49
+49        android:required="false" />
+49-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:45:5-29
+50
+51    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+51-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:15:5-98
+51-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:15:22-95
+52    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+52-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:16:5-94
+52-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:16:22-91
+53
+54    <uses-feature
+54-->[com.google.android.gms:play-services-maps:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\357077c851d8ce696e0304e9fdf9046e\jetified-play-services-maps-9.0.2\AndroidManifest.xml:22:5-24:33
+55        android:glEsVersion="0x00020000"
+55-->[com.google.android.gms:play-services-maps:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\357077c851d8ce696e0304e9fdf9046e\jetified-play-services-maps-9.0.2\AndroidManifest.xml:23:8-40
+56        android:required="true" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+56-->[com.google.android.gms:play-services-maps:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\357077c851d8ce696e0304e9fdf9046e\jetified-play-services-maps-9.0.2\AndroidManifest.xml:24:8-31
+57    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+57-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:26:5-77
+57-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:26:22-74
+58
+59    <application
+59-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:47:3-319:17
+60        android:name="it.feio.android.omninotes.OmniNotes"
+60-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:48:5-55
+61        android:allowBackup="true"
+61-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:49:5-31
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.2.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\e3f5a8c0c3fe81774ab0e46ba237a233\core-1.2.0\AndroidManifest.xml:24:18-86
+63        android:debuggable="true"
+64        android:icon="@mipmap/ic_launcher"
+64-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:51:5-39
+65        android:label="@string/app_name"
+65-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:52:5-37
+66        android:largeHeap="true"
+66-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:53:5-29
+67        android:requestLegacyExternalStorage="true"
+67-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:50:5-48
+68        android:supportsRtl="true"
+68-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:54:5-31
+69        android:testOnly="true"
+70        android:theme="@style/OmniNotesTheme.ApiSpec.Branded" >
+70-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:55:5-58
+71        <meta-data
+71-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:57:5-59:39
+72            android:name="android.app.default_searchable"
+72-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:58:7-52
+73            android:value=".ListActivity" />
+73-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:59:7-36
+74        <meta-data
+74-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:60:5-63:39
+75            android:name="com.google.android.gms.version"
+75-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:61:7-52
+76            android:value="@integer/google_play_services_version" />
+76-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:62:7-60
+77
+78        <!-- List and Detail -->
+79        <activity
+79-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:66:5-130:16
+80            android:name="it.feio.android.omninotes.MainActivity"
+80-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:67:7-35
+81            android:exported="true"
+81-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:68:7-30
+82            android:label="@string/app_name"
+82-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:69:7-39
+83            android:launchMode="singleTop" >
+83-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:70:7-37
+84            <intent-filter>
+84-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:71:7-74:23
+85                <action android:name="android.intent.action.MAIN" />
+85-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:72:9-61
+85-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:72:17-58
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:73:9-69
+87-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:73:19-66
+88            </intent-filter>
+89
+90            <meta-data
+90-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:76:7-78:45
+91                android:name="android.app.shortcuts"
+91-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:77:9-45
+92                android:resource="@xml/shortcuts" />
+92-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:78:9-42
+93
+94            <intent-filter>
+94-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:80:7-82:23
+95                <action android:name="android.intent.action.SEARCH" />
+95-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:81:9-63
+95-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:81:17-60
+96            </intent-filter>
+97            <intent-filter>
+97-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:84:7-93:23
+98                <data
+98-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:85:9-87:48
+99                    android:host="@string/app_package"
+99-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:87:11-45
+100                    android:scheme="app" />
+100-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:86:11-31
+101
+102                <action android:name="android.intent.action.VIEW" />
+102-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:88:9-61
+102-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:88:17-58
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:9-68
+104-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:19-65
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:91:9-70
+105-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:91:19-67
+106            </intent-filter>
+107
+108            <meta-data
+108-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:95:7-97:46
+109                android:name="android.app.searchable"
+109-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:96:9-46
+110                android:resource="@xml/searchable" />
+110-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:97:9-43
+111
+112            <intent-filter>
+112-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:99:7-105:23
+113                <action android:name="com.google.android.gm.action.AUTO_SEND" />
+113-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:100:9-73
+113-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:100:17-70
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:9-68
+115-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:19-65
+116
+117                <data android:mimeType="*/*" />
+117-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:85:9-87:48
+117-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:104:15-37
+118            </intent-filter>
+119            <intent-filter>
+119-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:106:7-112:23
+120                <action android:name="android.intent.action.SEND" />
+120-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:107:9-61
+120-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:107:17-58
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:9-68
+122-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:19-65
+123
+124                <data android:mimeType="*/*" />
+124-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:85:9-87:48
+124-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:104:15-37
+125            </intent-filter>
+126            <intent-filter>
+126-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:113:7-119:23
+127                <action android:name="android.intent.action.SEND_MULTIPLE" />
+127-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:114:9-70
+127-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:114:17-67
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:9-68
+129-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:19-65
+130
+131                <data android:mimeType="*/*" />
+131-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:85:9-87:48
+131-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:104:15-37
+132            </intent-filter>
+133            <intent-filter>
+133-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:121:7-128:23
+134                <action android:name="android.intent.action.VIEW" />
+134-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:88:9-61
+134-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:88:17-58
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:9-68
+136-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:19-65
+137                <category android:name="android.intent.category.BROWSABLE" />
+137-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:91:9-70
+137-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:91:19-67
+138
+139                <data android:scheme="hashtag" />
+139-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:85:9-87:48
+139-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:86:11-31
+140            </intent-filter>
+141        </activity>
+142
+143        <!-- Gallery -->
+144        <activity
+144-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:133:5-136:65
+145            android:name="it.feio.android.omninotes.GalleryActivity"
+145-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:134:7-63
+146            android:configChanges="orientation|keyboardHidden|screenSize"
+146-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:135:7-68
+147            android:theme="@style/OmniNotesFullscreenTheme.ApiSpec" />
+147-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:136:7-62
+148        <activity
+148-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:138:5-146:16
+149            android:name="it.feio.android.omninotes.CategoryActivity"
+149-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:139:7-64
+150            android:label="@string/title_activity_category"
+150-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:140:7-54
+151            android:parentActivityName="it.feio.android.omninotes.MainActivity"
+151-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:141:7-74
+152            android:theme="@style/Theme.MaterialComponents.Light.Dialog" >
+152-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:142:7-67
+153            <meta-data
+153-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:143:7-145:41
+154                android:name="android.support.PARENT_ACTIVITY"
+154-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:144:9-55
+155                android:value=".MainActivity" />
+155-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:145:9-38
+156        </activity>
+157
+158        <!-- Settings -->
+159        <activity
+159-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:149:5-156:16
+160            android:name="it.feio.android.omninotes.SettingsActivity"
+160-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:150:7-64
+161            android:label="@string/settings"
+161-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:151:7-39
+162            android:parentActivityName="it.feio.android.omninotes.MainActivity" >
+162-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:152:7-74
+163            <meta-data
+163-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:143:7-145:41
+164                android:name="android.support.PARENT_ACTIVITY"
+164-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:144:9-55
+165                android:value=".MainActivity" />
+165-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:145:9-38
+166        </activity>
+167
+168        <!-- Password -->
+169        <activity
+169-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:159:5-162:64
+170            android:name="it.feio.android.omninotes.PasswordActivity"
+170-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:160:7-64
+171            android:theme="@style/OmniNotesTheme.ApiSpec.Dialog"
+171-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:161:7-59
+172            android:windowSoftInputMode="stateHidden|adjustResize" />
+172-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:162:7-61
+173
+174        <!-- Info -->
+175        <activity
+175-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:165:5-168:40
+176            android:name="it.feio.android.omninotes.AboutActivity"
+176-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:166:7-61
+177            android:label="@string/title_activity_about"
+177-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:167:7-51
+178            android:launchMode="singleTop" />
+178-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:168:7-37
+179
+180        <!-- Intro -->
+181        <activity
+181-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:171:5-173:42
+182            android:name="it.feio.android.omninotes.intro.IntroActivity"
+182-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:172:7-42
+183            android:label="@string/app_name" />
+183-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:173:7-39
+184
+185        <!-- Snooze reminder -->
+186        <activity
+186-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:176:5-181:57
+187            android:name="it.feio.android.omninotes.SnoozeActivity"
+187-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:177:7-62
+188            android:excludeFromRecents="true"
+188-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:178:7-40
+189            android:launchMode="singleInstance"
+189-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:179:7-42
+190            android:noHistory="true"
+190-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:180:7-31
+191            android:theme="@style/OmniNotesTheme.NoDisplay" />
+191-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:181:7-54
+192
+193        <!-- Home launcher shortcut -->
+194        <activity
+194-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:184:5-192:16
+195            android:name="it.feio.android.omninotes.ShortcutActivity"
+195-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:185:7-64
+196            android:icon="@drawable/shortcut_icon"
+196-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:186:7-45
+197            android:label="@string/add_note" >
+197-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:187:7-39
+198            <intent-filter>
+198-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:188:7-191:23
+199                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+199-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:189:9-72
+199-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:189:17-69
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:9-68
+201-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:90:19-65
+202            </intent-filter>
+203        </activity>
+204
+205        <!-- Stats -->
+206        <activity
+206-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:195:5-197:70
+207            android:name="it.feio.android.omninotes.StatsActivity"
+207-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:196:7-61
+208            android:theme="@style/Theme.MaterialComponents.Light.Dialog" />
+208-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:197:7-67
+209        <activity
+209-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:198:5-200:70
+210            android:name="it.feio.android.omninotes.NoteInfosActivity"
+210-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:199:7-65
+211            android:theme="@style/Theme.MaterialComponents.Light.Dialog" />
+211-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:200:7-67
+212
+213        <!-- Alarm broadcast receiver -->
+214        <receiver android:name="it.feio.android.omninotes.receiver.AlarmReceiver" />
+214-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:203:5-81
+214-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:203:15-78
+215
+216        <!-- Reboot broadcast receiver -->
+217        <receiver
+217-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:206:5-215:16
+218            android:name="it.feio.android.omninotes.receiver.BootCompleteReceiver"
+218-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:207:7-52
+219            android:enabled="true"
+219-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:208:7-29
+220            android:exported="false"
+220-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:209:7-31
+221            android:label="BootCompleteReceiver"
+221-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:210:7-43
+222            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+222-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:211:7-69
+223            <intent-filter>
+223-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:212:7-214:23
+224                <action android:name="android.intent.action.BOOT_COMPLETED" />
+224-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:213:9-71
+224-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:213:17-68
+225            </intent-filter>
+226        </receiver>
+227
+228        <!-- Restore on reboot alarm service -->
+229        <service
+229-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:218:5-220:66
+230            android:name="it.feio.android.omninotes.async.AlarmRestoreOnRebootService"
+230-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:219:7-56
+231            android:permission="android.permission.BIND_JOB_SERVICE" />
+231-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:220:7-63
+232
+233        <!-- Notification listener service -->
+234        <service
+234-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:223:5-230:15
+235            android:name="it.feio.android.omninotes.services.NotificationListener"
+235-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:224:7-52
+236            android:label="@string/app_name"
+236-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:225:7-39
+237            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+237-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:226:7-81
+238            <intent-filter>
+238-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:227:7-229:23
+239                <action android:name="android.service.notification.NotificationListenerService" />
+239-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:228:9-91
+239-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:228:17-88
+240            </intent-filter>
+241        </service>
+242
+243        <!-- Data export and import service -->
+244        <service android:name="it.feio.android.omninotes.async.DataBackupIntentService" />
+244-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:233:5-87
+244-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:233:14-84
+245
+246        <!-- Widget configuration Activity -->
+247        <activity
+247-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:236:5-242:16
+248            android:name="it.feio.android.omninotes.widget.WidgetConfigurationActivity"
+248-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:237:7-82
+249            android:theme="@style/Theme.MaterialComponents.Light.Dialog" >
+249-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:238:7-67
+250            <intent-filter>
+250-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:239:7-241:23
+251                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+251-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:240:9-79
+251-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:240:17-76
+252            </intent-filter>
+253        </activity>
+254
+255        <!-- Widget Simple -->
+256        <receiver
+256-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:245:5-257:16
+257            android:name="it.feio.android.omninotes.widget.SimpleWidgetProvider"
+257-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:246:7-75
+258            android:description="@string/widget_simple_description"
+258-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:247:7-62
+259            android:icon="@drawable/logo"
+259-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:248:7-36
+260            android:label="@string/app_name" >
+260-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:249:7-39
+261            <intent-filter>
+261-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:250:7-252:23
+262                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+262-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:251:9-76
+262-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:251:17-73
+263            </intent-filter>
+264
+265            <meta-data
+265-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:254:7-256:52
+266                android:name="android.appwidget.provider"
+266-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:255:9-50
+267                android:resource="@xml/appwidget_simple" />
+267-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:256:9-49
+268        </receiver>
+269        <!-- Widget List -->
+270        <receiver
+270-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:259:5-271:16
+271            android:name="it.feio.android.omninotes.widget.ListWidgetProvider"
+271-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:260:7-73
+272            android:description="@string/widget_list_description"
+272-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:261:7-60
+273            android:icon="@drawable/logo"
+273-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:262:7-36
+274            android:label="@string/app_name" >
+274-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:263:7-39
+275            <intent-filter>
+275-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:250:7-252:23
+276                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+276-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:251:9-76
+276-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:251:17-73
+277            </intent-filter>
+278
+279            <meta-data
+279-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:254:7-256:52
+280                android:name="android.appwidget.provider"
+280-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:255:9-50
+281                android:resource="@xml/appwidget_list" />
+281-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:256:9-49
+282        </receiver>
+283
+284        <service
+284-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:273:5-275:66
+285            android:name="it.feio.android.omninotes.widget.ListWidgetService"
+285-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:274:7-72
+286            android:permission="android.permission.BIND_REMOTEVIEWS" />
+286-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:275:7-63
+287
+288        <!-- DashClock plugin service -->
+289        <service
+289-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:278:5-296:15
+290            android:name="it.feio.android.omninotes.extensions.ONDashClockExtension"
+290-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:279:7-54
+291            android:icon="@drawable/ic_stat_literal_icon"
+291-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:280:7-52
+292            android:label="@string/app_name"
+292-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:281:7-39
+293            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA" >
+293-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:282:7-92
+294            <intent-filter>
+294-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:283:7-285:23
+295                <action android:name="com.google.android.apps.dashclock.Extension" />
+295-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:284:9-78
+295-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:284:17-75
+296            </intent-filter>
+297
+298            <meta-data
+298-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:287:7-289:29
+299                android:name="protocolVersion"
+299-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:288:9-39
+300                android:value="2" />
+300-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:289:9-26
+301            <meta-data
+301-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:290:7-292:32
+302                android:name="worldReadable"
+302-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:291:9-37
+303                android:value="true" />
+303-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:292:9-29
+304            <meta-data
+304-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:293:7-295:57
+305                android:name="description"
+305-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:294:9-35
+306                android:value="@string/dashclock_description" />
+306-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:295:9-54
+307        </service>
+308        <service
+308-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:298:5-307:15
+309            android:name="it.feio.android.omninotes.extensions.PushBulletExtension"
+309-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:299:7-78
+310            android:permission="com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA" >
+310-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:300:7-91
+311            <intent-filter>
+311-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:301:7-303:23
+312                <action android:name="com.pushbullet.android.extension.MessagingExtension" />
+312-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:302:9-86
+312-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:302:17-83
+313            </intent-filter>
+314
+315            <meta-data
+315-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:287:7-289:29
+316                android:name="protocolVersion"
+316-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:288:9-39
+317                android:value="1" />
+317-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:289:9-26
+318        </service>
+319
+320        <provider
+321            android:name="androidx.core.content.FileProvider"
+321-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:310:7-56
+322            android:authorities="it.feio.android.omninotes.alpha.authority"
+322-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:311:7-55
+323            android:exported="false"
+323-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:312:7-31
+324            android:grantUriPermissions="true" >
+324-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:313:7-41
+325            <meta-data
+325-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:314:7-316:55
+326                android:name="android.support.FILE_PROVIDER_PATHS"
+326-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:315:9-59
+327                android:resource="@xml/file_provider_paths" />
+327-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:316:9-52
+328        </provider>
+329
+330        <service
+330-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:19:9-21:40
+331            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+331-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:20:13-132
+332            android:exported="false" />
+332-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:21:13-37
+333        <service
+333-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:22:9-24:40
+334            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+334-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:23:13-127
+335            android:exported="false" />
+335-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:24:13-37
+336        <service
+336-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:25:9-27:40
+337            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+337-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:26:13-120
+338            android:exported="false" />
+338-->[io.nlopez.smartlocation:library:3.2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\05d85fed52558a49720cacef13ea1c5b\jetified-library-3.2.4\AndroidManifest.xml:27:13-37
+339        <service
+339-->[com.squareup.leakcanary:leakcanary-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\ec7d3d22388d014ee56c88abf38cee49\jetified-leakcanary-android-2.4\AndroidManifest.xml:23:9-25:40
+340            android:name="leakcanary.internal.HeapAnalyzerService"
+340-->[com.squareup.leakcanary:leakcanary-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\ec7d3d22388d014ee56c88abf38cee49\jetified-leakcanary-android-2.4\AndroidManifest.xml:24:13-67
+341            android:exported="false" />
+341-->[com.squareup.leakcanary:leakcanary-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\ec7d3d22388d014ee56c88abf38cee49\jetified-leakcanary-android-2.4\AndroidManifest.xml:25:13-37
+342
+343        <activity
+343-->[com.tbruyelle.rxpermissions:rxpermissions:0.4.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\4b90d081684628cac745e6560ac03da5\jetified-rxpermissions-0.4.2\AndroidManifest.xml:11:9-14:75
+344            android:name="com.tbruyelle.rxpermissions.ShadowActivity"
+344-->[com.tbruyelle.rxpermissions:rxpermissions:0.4.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\4b90d081684628cac745e6560ac03da5\jetified-rxpermissions-0.4.2\AndroidManifest.xml:12:13-70
+345            android:launchMode="singleTop"
+345-->[com.tbruyelle.rxpermissions:rxpermissions:0.4.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\4b90d081684628cac745e6560ac03da5\jetified-rxpermissions-0.4.2\AndroidManifest.xml:13:13-43
+346            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+346-->[com.tbruyelle.rxpermissions:rxpermissions:0.4.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\4b90d081684628cac745e6560ac03da5\jetified-rxpermissions-0.4.2\AndroidManifest.xml:14:13-72
+347        <activity
+347-->[com.google.android.gms:play-services-base:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\9e05f03efe78dbb17eab054bb00f722c\jetified-play-services-base-9.0.2\AndroidManifest.xml:20:9-22:45
+348            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+348-->[com.google.android.gms:play-services-base:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\9e05f03efe78dbb17eab054bb00f722c\jetified-play-services-base-9.0.2\AndroidManifest.xml:20:19-85
+349            android:exported="false"
+349-->[com.google.android.gms:play-services-base:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\9e05f03efe78dbb17eab054bb00f722c\jetified-play-services-base-9.0.2\AndroidManifest.xml:22:19-43
+350            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+350-->[com.google.android.gms:play-services-base:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\9e05f03efe78dbb17eab054bb00f722c\jetified-play-services-base-9.0.2\AndroidManifest.xml:21:19-78
+351
+352        <provider
+352-->[com.google.firebase:firebase-common:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\ae8711188c27bae42ed55c0792b7ea53\jetified-firebase-common-9.0.2\AndroidManifest.xml:7:9-11:39
+353            android:name="com.google.firebase.provider.FirebaseInitProvider"
+353-->[com.google.firebase:firebase-common:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\ae8711188c27bae42ed55c0792b7ea53\jetified-firebase-common-9.0.2\AndroidManifest.xml:9:13-58
+354            android:authorities="it.feio.android.omninotes.alpha.firebaseinitprovider"
+354-->[com.google.firebase:firebase-common:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\ae8711188c27bae42ed55c0792b7ea53\jetified-firebase-common-9.0.2\AndroidManifest.xml:8:13-72
+355            android:exported="false"
+355-->[com.google.firebase:firebase-common:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\ae8711188c27bae42ed55c0792b7ea53\jetified-firebase-common-9.0.2\AndroidManifest.xml:10:13-37
+356            android:initOrder="100" />
+356-->[com.google.firebase:firebase-common:9.0.2] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\ae8711188c27bae42ed55c0792b7ea53\jetified-firebase-common-9.0.2\AndroidManifest.xml:11:13-36
+357
+358        <service
+358-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:27:9-31:39
+359            android:name="org.acra.sender.LegacySenderService"
+359-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:28:13-63
+360            android:enabled="@bool/acra_enable_legacy_service"
+360-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:29:13-63
+361            android:exported="false"
+361-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:30:13-37
+362            android:process=":acra" />
+362-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:31:13-36
+363        <service
+363-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:32:9-37:39
+364            android:name="org.acra.sender.JobSenderService"
+364-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:33:13-60
+365            android:enabled="@bool/acra_enable_job_service"
+365-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:34:13-60
+366            android:exported="false"
+366-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:35:13-37
+367            android:permission="android.permission.BIND_JOB_SERVICE"
+367-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:36:13-69
+368            android:process=":acra" />
+368-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:37:13-36
+369
+370        <provider
+370-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:39:9-45:51
+371            android:name="org.acra.attachment.AcraContentProvider"
+371-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:40:13-67
+372            android:authorities="it.feio.android.omninotes.alpha.acra"
+372-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:41:13-56
+373            android:exported="false"
+373-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:42:13-37
+374            android:grantUriPermissions="true"
+374-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:43:13-47
+375            android:process=":acra" />
+375-->[ch.acra:acra-core:5.7.0] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\59a28f3d8dc496a80004f954e9b49dc0\jetified-acra-core-5.7.0\AndroidManifest.xml:44:13-36
+376        <provider
+376-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:29:9-37:20
+377            android:name="leakcanary.internal.LeakCanaryFileProvider"
+377-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:30:13-70
+378            android:authorities="com.squareup.leakcanary.fileprovider.it.feio.android.omninotes.alpha"
+378-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:31:13-88
+379            android:exported="false"
+379-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:32:13-37
+380            android:grantUriPermissions="true" >
+380-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:33:13-47
+381            <meta-data
+381-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:314:7-316:55
+382                android:name="android.support.FILE_PROVIDER_PATHS"
+382-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:315:9-59
+383                android:resource="@xml/leak_canary_file_paths" />
+383-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:316:9-52
+384        </provider>
+385
+386        <activity
+386-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:39:9-44:66
+387            android:name="leakcanary.internal.activity.LeakActivity"
+387-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:40:13-69
+388            android:icon="@mipmap/leak_canary_icon"
+388-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:41:13-52
+389            android:label="@string/leak_canary_display_activity_label"
+389-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:42:13-71
+390            android:taskAffinity="com.squareup.leakcanary.it.feio.android.omninotes.alpha"
+390-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:43:13-76
+391            android:theme="@style/leak_canary_LeakCanary.Base" />
+391-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:44:13-63
+392
+393        <activity-alias
+393-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:46:9-62:26
+394            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+394-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:47:13-77
+395            android:banner="@drawable/leak_canary_tv_icon"
+395-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:48:13-59
+396            android:enabled="@bool/leak_canary_add_launcher_icon"
+396-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:49:13-66
+397            android:icon="@mipmap/leak_canary_icon"
+397-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:50:13-52
+398            android:label="@string/leak_canary_display_activity_label"
+398-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:51:13-71
+399            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+399-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:52:13-79
+400            android:taskAffinity="com.squareup.leakcanary.it.feio.android.omninotes.alpha"
+400-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:53:13-76
+401            android:theme="@style/leak_canary_LeakCanary.Base" >
+401-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:54:13-63
+402            <intent-filter>
+402-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:55:13-61:29
+403                <action android:name="android.intent.action.MAIN" />
+403-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:72:9-61
+403-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:72:17-58
+404
+405                <category android:name="android.intent.category.LAUNCHER" />
+405-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:73:9-69
+405-->E:\Omni-Notes2\omniNotes\src\main\AndroidManifest.xml:73:19-66
+406                <!-- Android TV launcher intent -->
+407                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+407-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:60:17-86
+407-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:60:27-83
+408            </intent-filter>
+409        </activity-alias>
+410
+411        <activity
+411-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:64:9-70:68
+412            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+412-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:65:13-80
+413            android:excludeFromRecents="true"
+413-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:66:13-46
+414            android:icon="@mipmap/leak_canary_icon"
+414-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:67:13-52
+415            android:label="@string/leak_canary_storage_permission_activity_label"
+415-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:68:13-82
+416            android:taskAffinity="com.squareup.leakcanary.it.feio.android.omninotes.alpha"
+416-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:69:13-76
+417            android:theme="@style/leak_canary_Theme.Transparent" />
+417-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:70:13-65
+418
+419        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+419-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:72:9-77
+419-->[com.squareup.leakcanary:leakcanary-android-core:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\10a1c80da7355010f5a75d7aa641918c\jetified-leakcanary-android-core-2.4\AndroidManifest.xml:72:19-74
+420
+421        <provider
+421-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\2894fe450de92e62858b054d2a4e8493\jetified-leakcanary-object-watcher-android-2.4\AndroidManifest.xml:8:9-12:40
+422            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+422-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\2894fe450de92e62858b054d2a4e8493\jetified-leakcanary-object-watcher-android-2.4\AndroidManifest.xml:9:13-79
+423            android:authorities="it.feio.android.omninotes.alpha.leakcanary-installer"
+423-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\2894fe450de92e62858b054d2a4e8493\jetified-leakcanary-object-watcher-android-2.4\AndroidManifest.xml:10:13-72
+424            android:enabled="@bool/leak_canary_watcher_auto_install"
+424-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\2894fe450de92e62858b054d2a4e8493\jetified-leakcanary-object-watcher-android-2.4\AndroidManifest.xml:11:13-69
+425            android:exported="false" />
+425-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\2894fe450de92e62858b054d2a4e8493\jetified-leakcanary-object-watcher-android-2.4\AndroidManifest.xml:12:13-37
+426        <provider
+426-->[com.squareup.leakcanary:plumber-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\8f05ddda136eb241e30b986f96121d85\jetified-plumber-android-2.4\AndroidManifest.xml:8:9-12:40
+427            android:name="leakcanary.internal.PlumberInstaller"
+427-->[com.squareup.leakcanary:plumber-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\8f05ddda136eb241e30b986f96121d85\jetified-plumber-android-2.4\AndroidManifest.xml:9:13-64
+428            android:authorities="it.feio.android.omninotes.alpha.plumber-installer"
+428-->[com.squareup.leakcanary:plumber-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\8f05ddda136eb241e30b986f96121d85\jetified-plumber-android-2.4\AndroidManifest.xml:10:13-69
+429            android:enabled="@bool/leak_canary_plumber_auto_install"
+429-->[com.squareup.leakcanary:plumber-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\8f05ddda136eb241e30b986f96121d85\jetified-plumber-android-2.4\AndroidManifest.xml:11:13-69
+430            android:exported="false" />
+430-->[com.squareup.leakcanary:plumber-android:2.4] C:\Users\Asmaa\.gradle\caches\transforms-2\files-2.1\8f05ddda136eb241e30b986f96121d85\jetified-plumber-android-2.4\AndroidManifest.xml:12:13-37
+431    </application>
+432
+433</manifest>

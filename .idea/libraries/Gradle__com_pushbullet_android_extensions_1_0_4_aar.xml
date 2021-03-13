@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pushbullet:android-extensions:1.0.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24906fef883c453ddacc22c3e79208ea/jetified-android-extensions-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9491d37e3ff48f5d57d5d1ae49c1be4c/jetified-android-extensions-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9491d37e3ff48f5d57d5d1ae49c1be4c/jetified-android-extensions-1.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9491d37e3ff48f5d57d5d1ae49c1be4c/jetified-android-extensions-1.0.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pushbullet/android-extensions/1.0.4/6d75ed826d8151997ae77931481547690be564ce/android-extensions-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pushbullet/android-extensions/1.0.4/39672457cd15153b6e277ac201d0b2eac2c6f4fb/android-extensions-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

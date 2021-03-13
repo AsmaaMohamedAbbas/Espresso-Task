@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\intro_slide.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\intro_slide.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\drawer_list_item.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\image_and_text_item.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\image_and_text_item.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\settings_font_size_dialog_item.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\settings_font_size_dialog_item.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_stats_note.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_stats_note.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_category.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_category.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\fab.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\fab.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\password_reset_dialog_layout.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\password_reset_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\fragment_sketch.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\fragment_sketch.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\attachment_dialog.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\attachment_dialog.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\crouton_handle.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\crouton_handle.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_note_infos.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_note_infos.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\fragment_navigation_drawer.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\drawer_category_list_header.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\drawer_category_list_header.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_password.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_password.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\simple_text_layout.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\simple_text_layout.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_changelog.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_changelog.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\password_request_dialog_layout.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\password_request_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\row.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\dialog_location.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\dialog_location.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\gridview_item.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\gridview_item.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_about.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\undobar.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\undobar.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\fragment_detail.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\fragment_detail.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_gallery.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_gallery.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\settings_font_size_item.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\settings_font_size_item.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\rate_app_dialog_layout.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\rate_app_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\fragment_detail_content.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\fragment_detail_content.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\drawer_category_list_footer.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\drawer_category_list_footer.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\note_layout_expanded.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\note_layout_expanded.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\widget_layout_small.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\widget_layout_small.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\webview.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\webview.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\fragment_list.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\password_buttons.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\password_buttons.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\sublime_picker.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\sublime_picker.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\popup_sketch_eraser.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\popup_sketch_eraser.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_settings.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\dialog_remove_checklist_layout.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\dialog_remove_checklist_layout.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\dialog_backup_layout.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\dialog_backup_layout.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_widget_configuration.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_widget_configuration.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\note_layout_widget.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\note_layout_widget.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\fragment_detail_attachments.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\fragment_detail_attachments.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\activity_stats.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\activity_stats.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\widget_layout_list.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\widget_layout_list.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\note_layout.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\note_layout.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\toolbar.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\widget_layout.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\popup_sketch_stroke.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\popup_sketch_stroke.xml"
+    },
+    {
+        "merged": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\stripped.dir\\layout\\widget_layout_toolbar.xml",
+        "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\layout\\widget_layout_toolbar.xml"
+    }
+]

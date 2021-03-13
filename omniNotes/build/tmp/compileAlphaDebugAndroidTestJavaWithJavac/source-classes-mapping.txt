@@ -1,0 +1,17 @@
+it/feio/android/omninotes/test/BuildConfig.java
+ it.feio.android.omninotes.test.BuildConfig
+it/feio/android/omninotes/MainActivityTest2.java
+ it.feio.android.omninotes.MainActivityTest2
+ it.feio.android.omninotes.MainActivityTest2$1
+it/feio/android/omninotes/CheckListNote.java
+ it.feio.android.omninotes.CheckListNote
+ it.feio.android.omninotes.CheckListNote$1
+it/feio/android/omninotes/MovingNote.java
+ it.feio.android.omninotes.MovingNote
+ it.feio.android.omninotes.MovingNote$1
+it/feio/android/omninotes/EnableTrash.java
+ it.feio.android.omninotes.EnableTrash
+ it.feio.android.omninotes.EnableTrash$1
+it/feio/android/omninotes/CreateNote.java
+ it.feio.android.omninotes.CreateNote
+ it.feio.android.omninotes.CreateNote$1

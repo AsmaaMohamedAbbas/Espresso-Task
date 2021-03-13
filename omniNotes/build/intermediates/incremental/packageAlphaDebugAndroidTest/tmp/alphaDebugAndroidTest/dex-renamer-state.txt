@@ -1,0 +1,7 @@
+#Sat Mar 13 23:52:45 EET 2021
+base.1=E\:\\Omni-Notes2\\omniNotes\\build\\intermediates\\dex\\alphaDebugAndroidTest\\mergeProjectDexAlphaDebugAndroidTest\\classes.dex
+path.1=classes.dex
+base.0=E\:\\Omni-Notes2\\omniNotes\\build\\intermediates\\dex\\alphaDebugAndroidTest\\mergeExtDexAlphaDebugAndroidTest\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

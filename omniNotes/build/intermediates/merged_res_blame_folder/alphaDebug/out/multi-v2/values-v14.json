@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Asmaa\\.gradle\\caches\\transforms-2\\files-2.1\\ed277ef11972a3a1c8a1c8886b210764\\jetified-simplegallery-3.0.1\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "198"
+                    }
+                }
+            ]
+        }
+    ]
+}

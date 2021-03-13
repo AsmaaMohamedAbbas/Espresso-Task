@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Omni-Notes2\\omniNotes\\build\\intermediates\\incremental\\mergeAlphaDebugResources\\merged.dir\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\Omni-Notes2\\omniNotes\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "24",
+                        "startColumns": "2",
+                        "startOffsets": "1000",
+                        "endColumns": "87",
+                        "endOffsets": "1085"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "168",
+                        "endColumns": "89",
+                        "endOffsets": "253"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Asmaa\\.gradle\\caches\\transforms-2\\files-2.1\\f92e53a30639c3fedad8c11a64912182\\jetified-changelog-2.0.0\\res\\values-sw600dp-land\\values-sw600dp-land.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "229,285",
+                        "endColumns": "55,56",
+                        "endOffsets": "280,337"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,111",
+                        "endColumns": "55,56",
+                        "endOffsets": "106,163"
+                    }
+                }
+            ]
+        }
+    ]
+}
